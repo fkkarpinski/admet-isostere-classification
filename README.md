@@ -1,12 +1,12 @@
 # ADMET Isostere Classification
 
-This repository contains the final analysis pipeline, dataset, thesis materials, and selected results prepared as part of a bachelor's thesis project @ Jagiellonian University, Kraków.
+This repository contains the final analysis pipeline, dataset, data-source notes, and selected results prepared as part of a bachelor's thesis project @ Jagiellonian University, Kraków.
 
 The project focuses on drug class prediction and bioisostere generation using molecular fingerprints, RDKit descriptors, machine learning classifiers, and dynamic classifier selection methods.
 
 ## Thesis Context
 
-This repository was created to organize and document the computational part of my bachelor's thesis. The goal of the project is to investigate whether generated bioisosteric analogues of known drug molecules preserve the predicted therapeutic class of the original compounds.
+This repository was created to organize and document the computational part of my bachelor's thesis. The thesis text itself is not included in this repository. The goal of the project is to investigate whether generated bioisosteric analogues of known drug molecules preserve the predicted therapeutic class of the original compounds.
 
 The main workflow is kept in a single Jupyter notebook to make the analysis easy to follow from data loading to model evaluation and interpretation.
 
@@ -15,6 +15,7 @@ The main workflow is kept in a single Jupyter notebook to make the analysis easy
 ```text
 .
 ├── data/
+│   ├── README.md - dataset provenance and preprocessing notes.
 │   └── all_chem_df.csv
 ├── notebooks/
 │   └── pipeline_notebook.ipynb - final end-to-end analysis pipeline.
