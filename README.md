@@ -1,6 +1,6 @@
 # ADMET Isostere Classification
 
-This repository contains the final analysis pipeline, dataset, thesis materials, and selected results prepared as part of a bachelor's thesis project.
+This repository contains the final analysis pipeline, dataset, thesis materials, and selected results prepared as part of a bachelor's thesis project @ Jagiellonian University, Kraków.
 
 The project focuses on drug class prediction and bioisostere generation using molecular fingerprints, RDKit descriptors, machine learning classifiers, and dynamic classifier selection methods.
 
