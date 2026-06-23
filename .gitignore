@@ -1,0 +1,5 @@
+
+# Large generated model files
+models/*.pkl
+models/**/*.pkl
+model_cache/
