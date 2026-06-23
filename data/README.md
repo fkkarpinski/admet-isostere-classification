@@ -35,8 +35,6 @@ The processed dataset used in the final notebook contains molecules assigned to 
 The data preparation workflow included:
 
 - reading PubChem compound identifiers grouped by therapeutic category
-- retrieving isomeric SMILES using PubChemPy
-- filtering out very long SMILES strings
 - removing salts with RDKit
 - deduplicating molecules
 - preserving therapeutic class labels as `tags`
@@ -47,7 +45,6 @@ The original raw CID text files are not included in this repository. The reposit
 ## External Resources
 
 - PubChem Compound: https://pubchem.ncbi.nlm.nih.gov/
-- PubChemPy: https://pubchempy.readthedocs.io/
 - RDKit: https://www.rdkit.org/
 - Medical Subject Headings (MeSH): https://www.nlm.nih.gov/mesh/
 
