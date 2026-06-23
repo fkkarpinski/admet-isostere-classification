@@ -1,0 +1,19 @@
+model,feature,importance,feature_type
+Random Forest,TPSA,0.02053262304533882,RDKit descriptor
+Random Forest,MolWt,0.016816000254706906,RDKit descriptor
+Random Forest,LogP,0.016259633910559165,RDKit descriptor
+Random Forest,HBA,0.015677242440808977,RDKit descriptor
+Random Forest,FractionCSP3,0.014309631417528607,RDKit descriptor
+Random Forest,RotBonds,0.011201486909280292,RDKit descriptor
+Random Forest,HBD,0.010428928305665351,RDKit descriptor
+Random Forest,RingCount,0.007851934482888083,RDKit descriptor
+Random Forest,Ro5_violations,0.005371219334454816,RDKit descriptor
+XGBoost,TPSA,0.0006172354697571621,RDKit descriptor
+XGBoost,HBD,0.0005004779964050124,RDKit descriptor
+XGBoost,FractionCSP3,0.00033962044658413117,RDKit descriptor
+XGBoost,HBA,0.0003154813498281404,RDKit descriptor
+XGBoost,MolWt,0.00028106726153799766,RDKit descriptor
+XGBoost,LogP,0.00026403639744099937,RDKit descriptor
+XGBoost,RingCount,0.0002611625686366841,RDKit descriptor
+XGBoost,RotBonds,0.0002306620872110666,RDKit descriptor
+XGBoost,Ro5_violations,0.00015823672062966558,RDKit descriptor

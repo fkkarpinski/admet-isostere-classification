@@ -1,0 +1,41 @@
+model,feature,importance,feature_type
+XGBoost,Morgan_bit_967,0.047041251307869604,Morgan fingerprint
+XGBoost,Morgan_bit_387,0.029906405039275462,Morgan fingerprint
+XGBoost,Morgan_bit_1636,0.02226201017524787,Morgan fingerprint
+XGBoost,Morgan_bit_537,0.022037254085044384,Morgan fingerprint
+Random Forest,TPSA,0.02053262304533882,RDKit descriptor
+Random Forest,MolWt,0.016816000254706906,RDKit descriptor
+Random Forest,LogP,0.016259633910559165,RDKit descriptor
+Random Forest,HBA,0.015677242440808977,RDKit descriptor
+XGBoost,Morgan_bit_642,0.01554965412793123,Morgan fingerprint
+XGBoost,Morgan_bit_717,0.01524527554083197,Morgan fingerprint
+XGBoost,Morgan_bit_1903,0.014471373443983334,Morgan fingerprint
+Random Forest,FractionCSP3,0.014309631417528607,RDKit descriptor
+XGBoost,Morgan_bit_1370,0.014201075677191978,Morgan fingerprint
+XGBoost,Morgan_bit_920,0.012584164550409846,Morgan fingerprint
+XGBoost,Morgan_bit_615,0.012039466540643707,Morgan fingerprint
+XGBoost,Morgan_bit_1648,0.011716698056900192,Morgan fingerprint
+Random Forest,RotBonds,0.011201486909280292,RDKit descriptor
+XGBoost,Morgan_bit_658,0.011013107093296502,Morgan fingerprint
+Random Forest,HBD,0.010428928305665351,RDKit descriptor
+XGBoost,Morgan_bit_1076,0.009239780330871574,Morgan fingerprint
+XGBoost,Morgan_bit_681,0.008967666484952482,Morgan fingerprint
+Random Forest,RingCount,0.007851934482888083,RDKit descriptor
+XGBoost,Morgan_bit_1412,0.007090805517116577,Morgan fingerprint
+XGBoost,Morgan_bit_233,0.006991102307342494,Morgan fingerprint
+Random Forest,Morgan_bit_314,0.0063742875872844565,Morgan fingerprint
+XGBoost,Morgan_bit_570,0.005590698080572089,Morgan fingerprint
+Random Forest,Ro5_violations,0.005371219334454816,RDKit descriptor
+XGBoost,Morgan_bit_438,0.005202212212454176,Morgan fingerprint
+XGBoost,Morgan_bit_1454,0.005166432659669866,Morgan fingerprint
+XGBoost,Morgan_bit_683,0.00514504669812616,Morgan fingerprint
+Random Forest,Morgan_bit_387,0.004716323649173444,Morgan fingerprint
+Random Forest,Morgan_bit_1199,0.0039949404982568175,Morgan fingerprint
+Random Forest,Morgan_bit_926,0.003825814666769659,Morgan fingerprint
+Random Forest,Morgan_bit_1750,0.0037554446602699678,Morgan fingerprint
+Random Forest,Morgan_bit_5,0.00371991528960486,Morgan fingerprint
+Random Forest,Morgan_bit_1487,0.003613785260575703,Morgan fingerprint
+Random Forest,Morgan_bit_1917,0.0034883080585006872,Morgan fingerprint
+Random Forest,Morgan_bit_1088,0.003470586565910981,Morgan fingerprint
+Random Forest,Morgan_bit_1257,0.003281012804484086,Morgan fingerprint
+Random Forest,Morgan_bit_750,0.0032311934287947734,Morgan fingerprint
