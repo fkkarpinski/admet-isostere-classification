@@ -17,66 +17,28 @@ The main workflow is kept in a single Jupyter notebook to make the analysis easy
 ├── data/
 │   └── all_chem_df.csv
 ├── notebooks/
-│   └── pipeline_notebook.ipynb
+│   └── pipeline_notebook.ipynb - final end-to-end analysis pipeline.
 ├── results/
-│   ├── figures/
-│   └── reports/
-├── models/
+│   ├── figures/ - exported figures and molecular visualizations.
+│   └── reports/ - exported result tables, model metrics, and rankings.
+├── models/ - local model cache directory. Large generated model files are excluded from version control.
 ├── .gitignore
 └── README.md
 ```
-
-## Main Files
-
-- `notebooks/pipeline_notebook.ipynb` - final end-to-end analysis pipeline.
-- `data/all_chem_df.csv` - main dataset used in the project.
-- `results/figures/` - exported figures and molecular visualizations.
-- `results/reports/` - exported result tables, model metrics, and rankings.
-- `models/` - local model cache directory. Large generated model files are excluded from version control.
 
 ## Methods
 
 The pipeline includes:
 
 - molecular preprocessing with RDKit
-- Morgan fingerprint generation
-- calculation of selected RDKit molecular descriptors
 - bioisostere generation using reaction SMARTS
-- scaffold-based train/test splitting
 - drug class prediction using machine learning classifiers
-- model evaluation with accuracy, balanced accuracy, and macro F1-score
-- dynamic classifier selection with DESlib
+- model evaluation, dynamic classifier selection with DESlib
 - feature importance analysis and molecular interpretability visualization
-
-## Models
-
-The project compares several classification approaches:
-
-- Random Forest
-- Support Vector Machine
-- Logistic Regression
-- XGBoost
-- DESlib-based dynamic classifier selection methods
 
 ## Results
 
 The final notebook produces model evaluation metrics, descriptor comparisons between original molecules and generated bioisosteres, and rankings of generated analogues according to predicted class preservation.
-
-Generated result files should be stored in:
-
-- `results/reports/` for tables, metrics, and rankings
-- `results/figures/` for molecular visualizations and exported figures
-
-## Requirements
-
-The analysis was developed in Python using Jupyter Notebook. Main libraries include:
-
-- pandas
-- numpy
-- scikit-learn
-- xgboost
-- RDKit
-- DESlib
 
 ## Notes
 
